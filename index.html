@@ -1,0 +1,1328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Looking for an internship enabling me to hone my skills in Artifical Intelligence, and also to contribute to a groundbreaking project, be it in the technology or the application">
+    <meta property="og:title" content="Théo Michel - Resume" />
+    <meta property="og:description" content="Looking for an internship enabling me to hone my skills in Artifical Intelligence, and also to contribute to a groundbreaking project, be it in the technology or the application" />
+    <meta property="og:image" content="og.png" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <title>
+        Théo Michel - Resume
+    </title>
+</head>
+
+<style>
+    @media print {
+        html {
+            zoom: 63.25%;
+        }
+    }
+</style>
+
+<body class="bg-gray-100 dark:bg-real-gray-900 print:bg-white">
+    <button id="top-button" onclick="window.scrollTo(0, 0);" style="border-radius: 50%"
+        class="hidden fixed right-7 bottom-6 z-50 text-3xl my-red text-gray-50 py-2 px-2.5 opacity-50 hover:opacity-100 shadow-sm print:hidden">
+        <i class="fas fa-arrow-up"></i></button>
+
+    <nav
+        class="flex flex-col md:flex-row justify-center w-full bg-white dark:bg-real-gray-700 dark:text-gray-50 shadow-2xl sticky top-0 z-40 text-sm print:hidden">
+        <div id="menu" class="text-right md:hidden text-2xl"><i class="fas fa-bars"></i></div>
+        <a href="#about">
+            <div class="active">ABOUT</div>
+        </a>
+        <a href="#work-experience-education" class="hidden md:block">
+            <div>WORK EXPERIENCE & EDUCATION</div>
+        </a>
+        <a href="#work-experience" class="md:hidden exclude">
+            <div>WORK EXPERIENCE</div>
+        </a>
+        <a href="#education" class="md:hidden exclude">
+            <div>EDUCATION</div>
+        </a>
+        <a href="#achievements-projects">
+            <div>ACHIEVEMENTS & PROJECTS</div>
+        </a>
+        <a href="#skills-interests">
+            <div>SKILLS & KNOWLEDGE</div>
+        </a>
+
+        <i class="fas fa-lightbulb ml-4 neon text-gray-500 dark:text-yellow-200 absolute top-5 md:relative"
+            style="cursor: pointer" onclick="$(document.documentElement).toggleClass('dark')"></i>
+
+        <i class="fas fa-print ml-4 absolute left-10 md:left-0 top-5 md:relative" style="cursor: pointer"
+            onclick="window.print()"></i>
+    </nav>
+    <div class="container mx-auto relative lg:w-8/12 print:w-full print:min-w-full">
+        <div class="header-wrapper">
+            <header
+                class="grid bg-white dark:bg-real-gray-800 md:grid-cols-3 grid-cols-2 print:grid-cols-3 gap-x-4 shadow-xl relative header animate__animated">
+                <div class="ribbon down z-10 print:hidden">
+                    <div class="content">
+                        
+                            <a class="mx-1 text-right" target="_blank" href="https://github.com/theo-michel"><span
+                                    class="hidden print:inline">
+                                    https://github.com/theo-michel
+                                </span><i class="fab fa-github"></i></a><br>
+                            
+                            <a class="mx-1 text-right" target="_blank" href="www.linkedin.com/in/theo-michel42"><span
+                                    class="hidden print:inline">
+                                    www.linkedin.com/in/theo-michel42
+                                </span><i class="fab fa-linkedin"></i></a><br>
+                            
+                    </div>
+                </div>
+                <div class="col-span-2 md:col-span-1 print:col-span-1 relative flex" id="about">
+                    <h1
+                        class="text-3xl md:text-6xl print:text-6xl absolute bottom-0 text-gray-50 md:invisible print:invisible p-5 w-full leading-8 z-10">
+                        Hi
+                        <i class="fas fa-handshake my-red-text"></i>,
+                        I'm <span class="font-semibold">
+                            Théo
+                                Michel
+                        </span><br><span class="text-lg">
+                            Master Graduate looking for an Internship in AI research
+                        </span>
+                    </h1>
+                    <div
+                        class="md:max-h-80 print:max-h-60 overflow-hidden mx-auto print:flex print:justify-items-center print:items-center">
+                        <img class="md:max-w-none md:h-full print:max-w-none print:h-full print:rounded-full" style="margin-left: 50%;
+    transform: translateX(-50%);" src="img/profile.jpg" onmouseover="this.src='img/profile-smile.jpg';"
+                            onmouseout="this.src='img/profile.jpg';" alt="profile picture">
+                    </div>
+                </div>
+
+                <div class="col-span-2 m-2">
+                    <h1 class="text-4xl hidden md:inline print:inline leading-6">Hello <i
+                            class="fas fa-handshake my-red-text"></i>,
+                        I'm
+                        <span class="font-semibold">
+                            Théo
+                                Michel
+                        </span><br><span class="text-xl">
+                            Master Graduate looking for an Internship in AI research
+                        </span>
+                    </h1>
+                    <hr class="mb-1 hidden md:block print:block">
+                    <div class="grid grid-cols-4 gap-4 print:gap-1 gap-x-10">
+                        
+                            <div class="font-bold">
+                                Age
+                            </div>
+                            
+                                        <div class="col-span-3 text-gray-700 dark:text-gray-300">
+                                            23 years
+                                        </div>
+                                        
+                                            
+                            <div class="font-bold">
+                                Location
+                            </div>
+                            
+                                        <div class="col-span-3 text-gray-700 dark:text-gray-300">
+                                            Flexible
+                                        </div>
+                                        
+                                            
+                            <div class="font-bold">
+                                Phone
+                            </div>
+                            
+                                        <div class="col-span-3 text-gray-700 dark:text-gray-300">
+                                            +33 6 43 45 13 97
+                                        </div>
+                                        
+                                            
+                            <div class="font-bold">
+                                E-mail
+                            </div>
+                            
+                                <div class="col-span-3 text-gray-700 dark:text-gray-300"><a
+                                        href="mailto:theo64200@gmail.com">
+                                        theo64200@gmail.com
+                                    </a></div>
+                                
+                                            
+                            <div class="font-bold">
+                                Interests
+                            </div>
+                            
+                                        <div class="col-span-3 text-gray-700 dark:text-gray-300">
+                                            Classical Music, Science-Fiction, Philosophy, AI, Gym, MMA, Volley-Ball
+                                        </div>
+                                        
+                                            
+                    </div>
+                </div>
+                <div class="my-red text-gray-50 col-span-full p-4 text-center text-xl print:text-md print:px-16">
+                    Looking for an internship enabling me to hone my skills in Artifical Intelligence, and also to contribute to a groundbreaking project, be it in the technology or the application
+                </div>
+            </header>
+        </div>
+        <section class="px-2">
+            <div class="relative grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 place-items-center"
+                id="work-experience-education">
+                <div
+                    class="top-20 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto invisible md:visible print:visible">
+                </div>
+                <div class="col-span-1 relative">
+                    <div
+                        class="top-16 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto  md:invisible print:invisible">
+                    </div>
+                    <h2 id="skills-interests"><i class="fas fa-book"></i> SKILLS</h2>
+                    <div
+                        class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-4 justify-center place-items-center px-2 md:pr-0 print:pr-0 md:pl-10 print:pl-10">
+                        
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-robot"></i>
+                                        Machine Learning
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Pytorch, TensorFlow, Scikit-learn, OpenCV, FastText, RLlib, DeepMind Melting Pot
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-code"></i>
+                                        Programming
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Python, Java / Kotlin, Dart / Js, Swift, C / C++, Lua, Functional Programming
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-database"></i>
+                                        Data Science
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Firebase, Big Query, Cloud functions, Plotly, Matplotlib, Google Data Studio
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-globe"></i>
+                                        Application Framework
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Flutter, Android, iOS, Web
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-robot"></i>
+                                        Robotics
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Raspberry Pi / Arduino / Jetson, Soldering, ROS, PyBullet, Gazebo, Orb-Slam
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="fas fa-balance-scale"></i>
+                                        Soft Skills
+                                    </div>
+                                    
+                                        <div class="text-center my-auto">
+                                            Adaptability, Creativity, Problem-Solving, Attention to Detail, Ability to lead a team
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                    </div>
+                    <h2 id="work-experience"><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h2>
+                    
+                        <div class="job-block-wrapper">
+                            <div class="job-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5" src="img/logo/snow-gmao.png"
+                                        alt="Snow GMAO logo.">
+                                    
+                                        <span class="timeline-point-left"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-left">
+                                            <span class="arrow-left" style="--timeline-top: 50%"></span>
+                                            
+                                                
+                                                        <a class="absolute bottom-2" href="https://snow-cannon-gmao-website.firebaseapp.com/"
+                                                            target="_blank"><i
+                                                                class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                                        
+                                                            
+                                                                <div class="date">
+                                                                    April 2022 - April 2023
+                                                                </div>
+                                                                <h3>
+                                                                    Snow GMAO
+                                                                </h3>
+                                                                <p class="position">
+                                                                    CO-FOUNDER (with Widad ZIZOUAN) • Val d&#39;isère
+                                                                </p>
+                                                                <p class="text-justify">
+                                                                    Co-founded a startup aimed at simplifying equipment maintenance for small companies, overseeing a team of 9. Went through all the stages of creating a company, and successfully developed a leading-edge app in the field of maintenance.
+                                                                </p>
+                                                                <div class="badge-block">
+                                                                    
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                G Cloud
+                                                                            </span>
+                                                                            <img alt="G Cloud logo"
+                                                                                src="img/ico/google-cloud.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Firebase
+                                                                            </span>
+                                                                            <img alt="Firebase logo"
+                                                                                src="img/ico/firebase.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Flutter
+                                                                            </span>
+                                                                            <img alt="Flutter logo"
+                                                                                src="img/ico/flutter.png">
+                                                                        </div>
+                                                                        
+                                                                </div>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="job-block-wrapper">
+                            <div class="job-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5" src="img/logo/connecteur.png"
+                                        alt="Le Connecteur logo.">
+                                    
+                                        <span class="timeline-point-left"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-left">
+                                            <span class="arrow-left" style="--timeline-top: 50%"></span>
+                                            
+                                                
+                                                        <a class="absolute bottom-2" href="https://www.leconnecteur-biarritz.fr/"
+                                                            target="_blank"><i
+                                                                class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                                        
+                                                            
+                                                                <div class="date">
+                                                                    August 2021 - January 2022 
+                                                                </div>
+                                                                <h3>
+                                                                    Le Connecteur
+                                                                </h3>
+                                                                <p class="position">
+                                                                    LEAD DEVELOPPER/ PRODUCT OWNER • Freelance • Biarritz
+                                                                </p>
+                                                                <p class="text-justify">
+                                                                    Led a team of five to develop a service for managing coworking space reservations through a WooCommerce site and a Flutter application for QR code scanning. Service has been running smoothly for 2 years.
+                                                                </p>
+                                                                <div class="badge-block">
+                                                                    
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                G Cloud
+                                                                            </span>
+                                                                            <img alt="G Cloud logo"
+                                                                                src="img/ico/google-cloud.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Data Studio
+                                                                            </span>
+                                                                            <img alt="Data Studio logo"
+                                                                                src="img/ico/data-studio.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Big Querry
+                                                                            </span>
+                                                                            <img alt="Big Querry logo"
+                                                                                src="img/ico/big-query.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Firebase
+                                                                            </span>
+                                                                            <img alt="Firebase logo"
+                                                                                src="img/ico/firebase.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                SQL
+                                                                            </span>
+                                                                            <img alt="SQL logo"
+                                                                                src="img/ico/sql.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Flutter
+                                                                            </span>
+                                                                            <img alt="Flutter logo"
+                                                                                src="img/ico/flutter.png">
+                                                                        </div>
+                                                                        
+                                                                </div>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="job-block-wrapper">
+                            <div class="job-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5" src="img/logo/wellputt.png"
+                                        alt="Wellputt USA logo.">
+                                    
+                                        <span class="timeline-point-left"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-left">
+                                            <span class="arrow-left" style="--timeline-top: 50%"></span>
+                                            
+                                                
+                                                        <a class="absolute bottom-2" href="https://play.google.com/store/apps/details?id=com.wellputt.wellputt"
+                                                            target="_blank"><i
+                                                                class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                                        
+                                                            
+                                                                <div class="date">
+                                                                    Oct 2020 - Apr 2021
+                                                                </div>
+                                                                <h3>
+                                                                    Wellputt USA
+                                                                </h3>
+                                                                <p class="position">
+                                                                    ANDROID DEVELOPER/PRODUCT OWNER • Freelance • Remote
+                                                                </p>
+                                                                <p class="text-justify">
+                                                                    Spearheaded the development of an engaging Android application gamifying putting training, achieving a 4.4-star rating on the Play Store and over 80,000 downloads.
+                                                                </p>
+                                                                <div class="badge-block">
+                                                                    
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Firebase
+                                                                            </span>
+                                                                            <img alt="Firebase logo"
+                                                                                src="img/ico/firebase.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Android
+                                                                            </span>
+                                                                            <img alt="Android logo"
+                                                                                src="img/ico/android.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Kotlin
+                                                                            </span>
+                                                                            <img alt="Kotlin logo"
+                                                                                src="img/ico/kotlin.png">
+                                                                        </div>
+                                                                        
+                                                                </div>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="job-block-wrapper">
+                            <div class="job-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5" src="img/logo/wellputt.png"
+                                        alt="Wellputt USA logo.">
+                                    
+                                        <span class="timeline-point-left"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-left">
+                                            <span class="arrow-left" style="--timeline-top: 50%"></span>
+                                            
+                                                
+                                                        <a class="absolute bottom-2" href="https://wellputt.com/eu/en/cms/17-bigtilt-contact"
+                                                            target="_blank"><i
+                                                                class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                                        
+                                                            
+                                                                <div class="date">
+                                                                    July 2020 - August 2020
+                                                                </div>
+                                                                <h3>
+                                                                    Wellputt USA
+                                                                </h3>
+                                                                <p class="position">
+                                                                    COMPUTER VISION ENGINEER • Freelance • Bayonne
+                                                                </p>
+                                                                <p class="text-justify">
+                                                                    Led the development of a highly accurate golf ball tracking algorithm and trajectory prediction for the Big Tilt platform.
+                                                                </p>
+                                                                <div class="badge-block">
+                                                                    
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Pytorch
+                                                                            </span>
+                                                                            <img alt="Pytorch logo"
+                                                                                src="img/ico/pytorch.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Open CV
+                                                                            </span>
+                                                                            <img alt="Open CV logo"
+                                                                                src="img/ico/open-cv.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Jupyter
+                                                                            </span>
+                                                                            <img alt="Jupyter logo"
+                                                                                src="img/ico/jupyter.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Maplotlib
+                                                                            </span>
+                                                                            <img alt="Maplotlib logo"
+                                                                                src="img/ico/matplotlib.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Python
+                                                                            </span>
+                                                                            <img alt="Python logo"
+                                                                                src="img/ico/python.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                C++
+                                                                            </span>
+                                                                            <img alt="C++ logo"
+                                                                                src="img/ico/cpp.png">
+                                                                        </div>
+                                                                        
+                                                                </div>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="job-block-wrapper">
+                            <div class="job-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5" src="img/logo/simbals.png"
+                                        alt="Simbals logo.">
+                                    
+                                        <span class="timeline-point-left"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-left">
+                                            <span class="arrow-left" style="--timeline-top: 50%"></span>
+                                            
+                                                
+                                                        <a class="absolute bottom-2" href="https://www.simbals.com/"
+                                                            target="_blank"><i
+                                                                class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                                        
+                                                            
+                                                                <div class="date">
+                                                                    May 2020 - July 2020
+                                                                </div>
+                                                                <h3>
+                                                                    Simbals
+                                                                </h3>
+                                                                <p class="position">
+                                                                    DATA SCIENTIST • Intern • Bordeaux
+                                                                </p>
+                                                                <p class="text-justify">
+                                                                    Creation of innovative musical descriptors, providing musicians with new ways to discover music.
+                                                                </p>
+                                                                <div class="badge-block">
+                                                                    
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Pytorch
+                                                                            </span>
+                                                                            <img alt="Pytorch logo"
+                                                                                src="img/ico/pytorch.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Librosa
+                                                                            </span>
+                                                                            <img alt="Librosa logo"
+                                                                                src="img/ico/librosa.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Jupyter
+                                                                            </span>
+                                                                            <img alt="Jupyter logo"
+                                                                                src="img/ico/jupyter.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Maplotlib
+                                                                            </span>
+                                                                            <img alt="Maplotlib logo"
+                                                                                src="img/ico/matplotlib.png">
+                                                                        </div>
+                                                                        
+                                                                        <div class="has-tooltip">
+                                                                            <span class="tooltip">
+                                                                                Python
+                                                                            </span>
+                                                                            <img alt="Python logo"
+                                                                                src="img/ico/python.png">
+                                                                        </div>
+                                                                        
+                                                                </div>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="col-span-1 relative">
+
+                    <div
+                        class="top-16 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto md:invisible print:invisible">
+                    </div>
+                    <h2 id="education"><i class="fas fa-user-graduate"></i> EDUCATION</h2>
+
+                    
+                        <div class="education-block-wrapper">
+                            <div class="education-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5 right-0" src="img/logo/KAIST.png"
+                                        alt=" logo">
+                                    
+                                        <span class="timeline-point-right"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-right">
+                                            <span class="arrow-right"
+                                                style="--timeline-top: 50%"></span>
+                                            <div class="date">
+                                                February 2023 - July 2023
+                                            </div>
+                                            <h3>
+                                                Exchange program
+                                            </h3>
+                                            <p class="position">
+                                                Korean Advanced Institute of Science and Technology (KAIST)
+                                            </p>
+                                            <p class="text-justify">
+                                                Widly regarded as the best engineering school in South Korea, KAIST is a research-oriented university with a focus on science and technology, in which I participated in leading edge projects.
+                                            </p>
+                                            
+                                                <div
+                                                    class="badge-text-block flex flex-wrap text-white gap-1 justify-center mt-2">
+                                                    
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Deep Reinforcement Learning
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Introduction to Autonomous Robotics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Graph Machine Learning
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            IOT Data Science
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-block-wrapper">
+                            <div class="education-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5 right-0" src="img/logo/TU_berlin.png"
+                                        alt=" logo">
+                                    
+                                        <span class="timeline-point-right"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-right">
+                                            <span class="arrow-right"
+                                                style="--timeline-top: 50%"></span>
+                                            <div class="date">
+                                                October 2022 - February 2023
+                                            </div>
+                                            <h3>
+                                                Exchange program
+                                            </h3>
+                                            <p class="position">
+                                                Techninal University Berlin
+                                            </p>
+                                            <p class="text-justify">
+                                                Studied the fundamentals of Brain computer interfacing and Machine Learning taught by some of the fathers of the field like Klaus-Robert Müller.
+                                            </p>
+                                            
+                                                <div
+                                                    class="badge-text-block flex flex-wrap text-white gap-1 justify-center mt-2">
+                                                    
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Machine Learning Theory 1
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Python programming for Machine learning
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Machine Intelligence 1
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Brain Computer Interfacing
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Reinforcement Learning Research Project (LIS Lab)
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-block-wrapper">
+                            <div class="education-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5 right-0" src="img/logo/enseirb.png"
+                                        alt=" logo">
+                                    
+                                        <span class="timeline-point-right"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-right">
+                                            <span class="arrow-right"
+                                                style="--timeline-top: 50%"></span>
+                                            <div class="date">
+                                                2020 - 2023
+                                            </div>
+                                            <h3>
+                                                Engineer&#39;s degree in Computer Science - Artificial Intelligence Major - PhD track 
+                                            </h3>
+                                            <p class="position">
+                                                ENSEIRB-MATMECA - Bordeaux Graduate School in Electronics, Computer Science, Telecommunications, Mathematics and Mechanics
+                                            </p>
+                                            <p class="text-justify">
+                                                Master the necessary fundamental, theoretical and practical aspects of the main fields of computer sciences. I joined the PhD track, which prepares engineering students for scientific research and its applications, encourages R&amp;D vocations and facilitates the understanding of doctoral studies, through seminars, round tables, visits, projects, specific modules, etc.
+                                            </p>
+                                            
+                                                <div
+                                                    class="badge-text-block flex flex-wrap text-white gap-1 justify-center mt-2">
+                                                    
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Probability
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Formal Methods
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Functional Programing
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Object Oriented Programing
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Automata Theory
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Compiler Theory
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Quantum Computing
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Numerical Methods
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            System Programming
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Computability Theory
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Robotics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Machine Learning
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+                            </div>
+                        </div>
+                        
+                        <div class="education-block-wrapper">
+                            <div class="education-block relative animate__animated">
+                                
+                                    <img class="absolute h-16 p-1.5 right-0" src="img/logo/prepa.png"
+                                        alt=" logo">
+                                    
+                                        <span class="timeline-point-right"
+                                            style="--timeline-top: 50%"></span>
+                                        <div class="timeline-block-right">
+                                            <span class="arrow-right"
+                                                style="--timeline-top: 50%"></span>
+                                            <div class="date">
+                                                2018 - 2020
+                                            </div>
+                                            <h3>
+                                                Preparatory Class for the grandes ecoles
+                                            </h3>
+                                            <p class="position">
+                                                La Prepa des INP Bordeaux
+                                            </p>
+                                            <p class="text-justify">
+                                                Two year high-intensity study of Mathematics and physics to prepare for the entry into french engineering schools.
+                                            </p>
+                                            
+                                                <div
+                                                    class="badge-text-block flex flex-wrap text-white gap-1 justify-center mt-2">
+                                                    
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Logic
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Algebra
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Differential Calculus
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Group Theory
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Numerical Sequences
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Polynomials
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Linear Algebra
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Reduction of Endomorphisms
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Thermodynamics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Classical Mechanics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Electrostatics and Magnetic fields
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Electric Circuits
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Mecanical Waves
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Fluid Mecanics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Wave Optics
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Diffusion
+                                                        </div>
+                                                        
+                                                        <div class="p-1 my-red text-xs rounded-md">
+                                                            Quantum Physics
+                                                        </div>
+                                                        
+                                                </div>
+                                                
+                                        </div>
+                            </div>
+                        </div>
+                        
+                </div>
+            </div>
+        </section>
+        <div class="pagebreak"> </div>
+        <div class="my-10"></div>
+        <h2 id="achievements-projects"><i class="fas fa-trophy"></i> ACHIEVEMENTS & PROJECTS</h2>
+        <section class="flex flex-wrap gap-x-6 px-2">
+            
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://www.overleaf.com/read/vsyjfssdqxyt" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2023
+                                            </div>
+                                            <h3>
+                                                Dark Forest Reinforcement Learning
+                                            </h3>
+                                            <p class="position">
+                                                TEAM LEAD
+                                            </p>
+                                            <p class="text-justify">
+                                                Design and Implementation of Reinforcement Learning environment for modelling solar system communications using DeepMind Melting pot, RLlib and Ray.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Ray
+                                                        </span>
+                                                        <img alt="Ray logo" src="img/ico/ray.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Docker
+                                                        </span>
+                                                        <img alt="Docker logo" src="img/ico/docker.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Deepmind Melting Pot
+                                                        </span>
+                                                        <img alt="Deepmind Melting Pot logo" src="img/ico/deepmind.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Pytorch
+                                                        </span>
+                                                        <img alt="Pytorch logo" src="img/ico/pytorch.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Lua
+                                                        </span>
+                                                        <img alt="Lua logo" src="img/ico/lua.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://drive.google.com/file/d/17jsUQMLpwazcbKq-TFzwzr73QORlgzHG/view?usp=sharing" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2023
+                                            </div>
+                                            <h3>
+                                                Novel Dimensionality Reduction Technique using ML Graph Embeddings
+                                            </h3>
+                                            <p class="position">
+                                                RESEARCHER
+                                            </p>
+                                            <p class="text-justify">
+                                                Developed and implemented a novel dimensionality reduction technique using Graph Embeddings to preserve data substructures effectively. The algorithm performed on par or better than the SOTA while being extremely simple.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Scikit-learn
+                                                        </span>
+                                                        <img alt="Scikit-learn logo" src="img/ico/sklearn.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Pytorch
+                                                        </span>
+                                                        <img alt="Pytorch logo" src="img/ico/pytorch.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://pitch.com/public/dc243670-7bac-4cd7-addc-8ccf4bf6df14" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2023
+                                            </div>
+                                            <h3>
+                                                Gesture-Controlled Autonomous Drone for Group Photography
+                                            </h3>
+                                            <p class="position">
+                                                DEVELOPER
+                                            </p>
+                                            <p class="text-justify">
+                                                Assembled and programmed a gesture-controlled autonomous quadcopter capable of capturing pictures of humans in different positions.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Jetson Nano
+                                                        </span>
+                                                        <img alt="Jetson Nano logo" src="img/ico/nvidia.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            ROS
+                                                        </span>
+                                                        <img alt="ROS logo" src="img/ico/ros.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Gazebo
+                                                        </span>
+                                                        <img alt="Gazebo logo" src="img/ico/gazebo.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            C++
+                                                        </span>
+                                                        <img alt="C++ logo" src="img/ico/cpp.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://www.overleaf.com/read/mmwnsrzjkjbw" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2022-2023
+                                            </div>
+                                            <h3>
+                                                Dreamer V2
+                                            </h3>
+                                            <p class="position">
+                                                RESEARCHER
+                                            </p>
+                                            <p class="text-justify">
+                                                Research on the effectiveness of the Dreamer V2 reinforcement learning algorithm in solving more complex puzzle like tasks. Implementation of the algorithm, training on new tasks, and exploration of the algorithm&#39;s understanding of the tasks.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            ML Flow
+                                                        </span>
+                                                        <img alt="ML Flow logo" src="img/ico/ml-flow.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Pytorch
+                                                        </span>
+                                                        <img alt="Pytorch logo" src="img/ico/pytorch.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://www.overleaf.com/read/yckdhpynnftb" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2022
+                                            </div>
+                                            <h3>
+                                                Sim CLR Phd Track Project
+                                            </h3>
+                                            <p class="position">
+                                                Team Member
+                                            </p>
+                                            <p class="text-justify">
+                                                Conducted research on the effectiveness of the contrastive self-supervised learning method Sim-CLR on various datasets, and explored its performance on resource-constrained hardware.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Weights and Biases
+                                                        </span>
+                                                        <img alt="Weights and Biases logo" src="img/ico/wb.svg">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Pytorch
+                                                        </span>
+                                                        <img alt="Pytorch logo" src="img/ico/pytorch.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                            
+                                    <a class="absolute" href="https://www.linkedin.com/posts/warisr_f%C3%A9licitations-%C3%A0-tous-les-membres-deirbia-activity-6893670431908253696-B9Lz?utm_source=share&amp;utm_medium=member_desktop" target="_blank"><i
+                                            class="fas fa-link opacity-50 hover:opacity-100"></i></a>
+                                    
+                                        
+                                            <div class="date">
+                                                2021
+                                            </div>
+                                            <h3>
+                                                IA Pau Data Challenge
+                                            </h3>
+                                            <p class="position">
+                                                Team lead
+                                            </p>
+                                            <p class="text-justify">
+                                                Lead a team of first-year students in the AI Data Challenge Pau, achieving best performance and lowest training time on the patent classification task using fastText (Meta).
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Qt
+                                                        </span>
+                                                        <img alt="Qt logo" src="img/ico/qt.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Fast Text
+                                                        </span>
+                                                        <img alt="Fast Text logo" src="img/ico/fast-text.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+                <div class="relative project-block-wrapper self-center" style="flex: 1 0 400px;">
+                    <div class="timeline-block project-block animate__animated">
+                        
+                                            <div class="date">
+                                                2021
+                                            </div>
+                                            <h3>
+                                                Walking Hexapod
+                                            </h3>
+                                            <p class="position">
+                                                DEVELOPPER
+                                            </p>
+                                            <p class="text-justify">
+                                                 Developed and implemented an efficient inverse kinematics and walking pattern for a 6-legged robot, demonstrating best in class precise and stable locomotion.
+                                            </p>
+                                            <div class="badge-block">
+                                                
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            PyBullet
+                                                        </span>
+                                                        <img alt="PyBullet logo" src="img/ico/py-bullet.png">
+                                                    </div>
+                                                    
+                                                    <div class="has-tooltip">
+                                                        <span class="tooltip">
+                                                            Python
+                                                        </span>
+                                                        <img alt="Python logo" src="img/ico/python.png">
+                                                    </div>
+                                                    
+                                            </div>
+                    </div>
+                </div>
+                
+        </section>
+    </div>
+    <div class="my-5"></div>
+    <div class="hidden print:block text-center pt-4">
+        A online version of this resume is also available, with updates as they occur, on <a class="my-red-text"
+            href="https://warisradji.com/resume/">warisradji.com/resume/</a>.
+        <br>
+        <img class="p-4 w-2/12 mx-auto" src="img/qrcode.png" alt="QR-code of the online resume.">
+    </div>
+    <footer class="p-14 my-red text-gray-50 print:hidden text-center">
+        Profiles: <a href="https://warisradji.com/resume/">Main</a> | <a
+            href="https://warisradji.com/resume/data.html">Data</a> | <a
+            href="https://warisradji.com/resume/software.html">Software</a>
+        <br>
+        © 2022 Waris Radji ~ Build with ♥.
+    </footer>
+    <script>
+        // Code from https://stackoverflow.com/questions/10599933/convert-long-number-into-abbreviated-string-in-javascript-with-a-special-shortn
+        function abbreviateNumber(value) {
+            var newValue = value;
+            if (value >= 1000) {
+                var suffixes = ["", "k", "m", "b", "t"];
+                var suffixNum = Math.floor(("" + value).length / 3);
+                var shortValue = '';
+                for (var precision = 2; precision >= 1; precision--) {
+                    shortValue = parseFloat((suffixNum != 0 ? (value / Math.pow(1000, suffixNum)) : value).toPrecision(precision));
+                    var dotLessShortValue = (shortValue + '').replace(/[^a-zA-Z 0-9]+/g, '');
+                    if (dotLessShortValue.length <= 2) { break; }
+                }
+                if (shortValue % 1 != 0) shortValue = shortValue.toFixed(1);
+                newValue = shortValue + suffixes[suffixNum];
+            }
+            return newValue;
+        }
+
+        document.querySelectorAll(".github-link").forEach(a => {
+            const [usr, repo] = a.href.split("/").slice(-2);
+            fetch(`https://api.github.com/repos/${usr}/${repo}?page=10&per_page=100`).then((response) => {
+                response.json().then((json) => {
+                    document.getElementById(a.id.replace("a-", "star-")).innerHTML = json.stargazers_count > 0 ? `${abbreviateNumber(json.stargazers_count)} <i
+                                        class="fas fa-star text-xs text-yellow-400"></i>` : "";
+                })
+
+            })
+        });
+    </script>
+</body>
