@@ -32,6 +32,29 @@ description: "Dedicated to enhancing human intelligence through the utilization 
 # description: "Dedicated to enhancing human intelligence through AI, Brain Computer Interfaces and Education. I am looking for an internship enabling me to leverage my skills in AI/RL, BCI and Software Engineering in order to make a meaningfull contribution, and at the same time improve skills. " #"I am fascinated by the concept of Intelligence and looking for an opportunity to explore it through Artificial Intelligence, Reinforcement Learning and Brain Computer Interfacing."
 
 jobs:
+  - date: "October 2023 - March 2024"
+    company: "Tesla"
+    logo: "img/logo/Tesla.png"
+    arrow: 50
+    position: "Software Product Engineer Intern • Amsterdam"
+    description: "Launched an internal initiative for Machine Learning usage reducing the tedious workload of finance operations by 70%.
+    Worked on a POC using LlangChain and Mistral 7*8B via Hugging face using RAG in order to facilitate access to internal information.
+    Also participated as a project Engineer on internal registration projects allowing to automate 50% of the registration flow in France.
+  "
+    badges:
+      - name: "Hugging Face"
+        icon: "img/ico/hf.png"
+      - name: "Llang Chain"
+        icon: "img/ico/llangchain.png"
+      - name: "C#"
+        icon: "img/ico/cs.png"
+      - name: "Python"
+        icon: "img/ico/python.png"
+      - name: ".NET"
+        icon: "img/ico/net.png"
+    link: https://www.tesla.com/
+    id: tesla
+
   - date: "Apr 2022 - Apr 2023"
     company: "Snow GMAO"
     logo: "img/logo/snow-gmao.png"

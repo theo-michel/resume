@@ -1,4 +1,5 @@
 jobs:
+  - tesla
   - snow
   - boulanger
   - connecteur
