@@ -54,7 +54,7 @@
         <a href="#skills-interests">
             <div>SKILLS & KNOWLEDGE</div>
         </a>
-
+        
         <i class="fas fa-lightbulb ml-4 neon text-gray-500 dark:text-yellow-200 absolute top-5 md:relative"
             style="cursor: pointer" onclick="$(document.documentElement).toggleClass('dark')"></i>
 
@@ -123,7 +123,7 @@
                                             <%= info.value %>
                                         </a></div>
                                     <%} else { %>
-                                        <div class="col-span-3 text-gray-700 dark:text-gray-300" >
+                                        <div class="col-span-3 text-gray-700 dark:text-gray-300">
                                             <%= info.value %>
                                         </div>
                                         <%} %>
@@ -131,14 +131,14 @@
                     </div>
                 </div>
 
-                <div class="description-block-wrapper text-black-50 col-span-full p-4 text-center text-xl print:text-md print:px-16">
+                <div
+                    class="description-block-wrapper text-black-50 col-span-full p-4 text-center text-xl print:text-md print:px-16">
                     <%= description %>
                 </div>
             </header>
         </div>
         <section class="px-2">
-            <div class="relative grid grid-cols-1 md:grid-cols-2 print:grid-cols-2"
-                id="work-experience-education">
+            <div class="relative grid grid-cols-1 md:grid-cols-2 print:grid-cols-2" id="work-experience-education">
                 <div
                     class="top-20 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto invisible md:visible print:visible">
                 </div>
@@ -146,23 +146,7 @@
                     <div
                         class="top-16 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto  md:invisible print:invisible">
                     </div>
-                    <h2 id="skills-interests"><i class="fas fa-book"></i> SKILLS</h2>
-                    <div
-                    class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-4 justify-center place-items-center px-2 md:pr-10 print:pr-10 md:pl-0 print:pl-0">                        <% for(let skill of skills || []){ %>
-                            <div class="skill-block-wrapper">
-                                <div class="skill-block animate__animated animate__slow">
-                                    <div class="skill-block-category text-center"><i class="<%= skill.icon %>"></i>
-                                        <%= skill.category %>
-                                    </div>
-                                    <% if (skill.content) {%>
-                                        <div class="text-center my-auto">
-                                            <%= skill.content %>
-                                        </div>
-                                        <%} %>
-                                </div>
-                            </div>
-                            <%} %>
-                    </div>
+
                     <h2 id="work-experience"><i class="fas fa-briefcase"></i> WORK EXPERIENCE</h2>
                     <% for(let job of jobs || []){ %>
                         <div class="job-block-wrapper experiences-block-wrapper">
@@ -218,27 +202,44 @@
                         <%} %>
                 </div>
                 <div class="col-span-1 relative">
-<!-- Space for skills -->
+                    <!-- Space for skills -->
                     <div
                         class="top-16 -bottom-2 my-red w-1 opacity-30 absolute inset-x-0 mx-auto md:invisible print:invisible">
+                    </div>
+                    <h2 id="skills-interests"><i class="fas fa-book"></i> SKILLS</h2>
+                    <div
+                        class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-4 justify-center place-items-center px-2 md:pl-10 print:pr-10 md:pl-0 print:pl-0">
+                        <% for(let skill of skills || []){ %>
+                            <div class="skill-block-wrapper">
+                                <div class="skill-block animate__animated animate__slow">
+                                    <div class="skill-block-category text-center"><i class="<%= skill.icon %>"></i>
+                                        <%= skill.category %>
+                                    </div>
+                                    <% if (skill.content) {%>
+                                        <div class="text-center my-auto">
+                                            <%= skill.content %>
+                                        </div>
+                                        <%} %>
+                                </div>
+                            </div>
+                            <%} %>
                     </div>
                     <h2 id="education"><i class="fas fa-user-graduate"></i> EDUCATION</h2>
 
                     <% for(let education of educations || []){ %>
                         <div class="education-block-wrapper nopagebreak">
                             <div class="education-block relative animate__animated">
-                                        <span class="timeline-point-right"
-                                            style="--timeline-top: <%= education.arrow %>%"></span>
-                                        <div class="timeline-block-right">
-                                            <span class="arrow-right"
-                                                style="--timeline-top: <%= education.arrow %>%"></span>
-                                            <div class="date-edu">
-                                                <%= education.date %>
-                                            </div>
-                                            <% if (education.logo) { %>
-                                                <img class="object-scale-down w-32 p-1.5 right-0 mx-auto mt-3 mb-3" src="<%= education.logo %>"
-                                                    alt="<%education.school%> logo">
-                                                <% }%>
+                                <span class="timeline-point-right"
+                                    style="--timeline-top: <%= education.arrow %>%"></span>
+                                <div class="timeline-block-right">
+                                    <span class="arrow-right" style="--timeline-top: <%= education.arrow %>%"></span>
+                                    <div class="date-edu">
+                                        <%= education.date %>
+                                    </div>
+                                    <% if (education.logo) { %>
+                                        <img class="object-scale-down w-32 p-1.5 right-0 mx-auto mt-3 mb-3"
+                                            src="<%= education.logo %>" alt="<%education.school%> logo">
+                                        <% }%>
                                             <h3>
                                                 <%= education.degree %>
                                             </h3>
@@ -258,7 +259,7 @@
                                                         <% } %>
                                                 </div>
                                                 <% } %>%>
-                                        </div>
+                                </div>
                             </div>
                         </div>
                         <%} %>
@@ -313,7 +314,8 @@
     </div>
     <div class="my-5"></div>
     <div class="hidden print:block text-center pt-4">
-        A online version of this resume is also available, with updates as they occur, and links to the different projects, on <a class="my-red-text"
+        A online version of this resume is also available, with updates as they occur, and links to the different
+        projects, on <a class="my-red-text"
             href="https://theo-michel.github.io/resume/">https://theo-michel.github.io/resume/</a>.
         <br>
         <img class="p-4 w-2/12 mx-auto" src="img/qrcode.png" alt="QR-code of the online resume.">
@@ -327,7 +329,7 @@
         <br>
         © 2024 Théo Michel ~ Build with ♥.
 
-        
+
     </footer>
     <script>
         // Code from https://stackoverflow.com/questions/10599933/convert-long-number-into-abbreviated-string-in-javascript-with-a-special-shortn

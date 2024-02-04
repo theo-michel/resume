@@ -345,6 +345,20 @@ projects:
       icon: "img/ico/py-bullet.png"
     id: hexapod
     link: https://pitch.com/embed/46097a0e-ce72-4606-84ba-ea0834365475
+  - date: "2024"
+    name: "Transformer From Scratch"
+    position: "DEVELOPER"
+    description: "Currently implementing a Transformer based LLM using Python/Pytorch, next step is doing the same with the Mamba architecture that doesn't require any Attention Layer will achieving similar performance on some benchmarks."
+    badges:
+    - name: "Python"
+      icon: "img/ico/python.png"
+    - name: "Pytorch"
+      icon: "img/ico/pytorch.png"
+    id: transformer
+    link: 
+
+
+
 skills:
   - icon: fas fa-robot
     category: Machine Learning
