@@ -348,7 +348,7 @@ projects:
   - date: "2024"
     name: "Transformer From Scratch"
     position: "DEVELOPER"
-    description: "Currently implementing a Transformer based LLM using Python/Pytorch, next step is doing the same with the Mamba architecture that doesn't require any Attention Layer will achieving similar performance on some benchmarks."
+    description: "Currently implementing a Transformer based LLM using Python/Pytorch, the next step is doing the same with the Mamba architecture that doesn't require any Attention Layer while achieving similar performance on some benchmarks."
     badges:
     - name: "Python"
       icon: "img/ico/python.png"
