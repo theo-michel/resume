@@ -15,15 +15,8 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
-        function generatePDF() {
-            console.log("Hello");
-            var element = document.getElementById('content');
-            html2pdf(element);
-        }
-    </script>
+
     <title>
         <%= title %>
     </title>
@@ -68,7 +61,7 @@
             style="cursor: pointer" onclick="$(document.documentElement).toggleClass('dark')"></i>
 
         <i class="fas fa-print ml-4 absolute left-10 md:left-0 top-5 md:relative" style="cursor: pointer"
-            onclick="generatePDF()"></i>
+            onclick="window.print()"></i>
     </nav>
     <div class="container mx-auto relative lg:w-8/12 print:w-full print:min-w-full">
         <div class="header-wrapper">
