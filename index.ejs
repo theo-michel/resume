@@ -116,7 +116,7 @@
                                     <%= info.key %>
                                 </div>
                                 <div class="col-span-3 hidden print:block dark:text-gray-300 print:underline text-blue-600"><a target="_blank"
-                                        href="https://www.youtube.com/watch?v=RC3JOzN2F1w">
+                                        href="<%= info.value %>">
                                         <%= info.value %>
                                     </a></div>
                                     <%} else { %>
@@ -187,7 +187,7 @@
                                                                 <p class="position">
                                                                     <%= job.position %>
                                                                 </p>
-                                                                <p class="text-justify">
+                                                                <p class="text-justify whitespace-pre-line">
                                                                     <%= job.description %>
                                                                 </p>
                                                                 <div class="badge-block">
