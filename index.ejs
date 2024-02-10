@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        function generatePDF() {
+            console.log("Hello");
+            var element = document.getElementById('content');
+            html2pdf(element);
+        }
+    </script>
     <title>
         <%= title %>
     </title>
@@ -59,7 +68,7 @@
             style="cursor: pointer" onclick="$(document.documentElement).toggleClass('dark')"></i>
 
         <i class="fas fa-print ml-4 absolute left-10 md:left-0 top-5 md:relative" style="cursor: pointer"
-            onclick="window.print()"></i>
+            onclick="generatePDF()"></i>
     </nav>
     <div class="container mx-auto relative lg:w-8/12 print:w-full print:min-w-full">
         <div class="header-wrapper">
@@ -109,6 +118,15 @@
                     <hr class="mb-1 hidden md:block print:block">
                     <div class="grid grid-cols-4 gap-4 print:gap-1 gap-x-10">
                         <% for(let info of details || []){ %>
+                            <% if (info.key.includes("site")) {%>
+                                <div class="font-bold hidden print:block">
+                                    <%= info.key %>
+                                </div>
+                                <div class="col-span-3 hidden print:block dark:text-gray-300 print:underline text-blue-600"><a target="_blank"
+                                        href="https://www.youtube.com/watch?v=RC3JOzN2F1w">
+                                        <%= info.value %>
+                                    </a></div>
+                                    <%} else { %>
                             <div class="font-bold">
                                 <%= info.key %>
                             </div>
@@ -117,17 +135,12 @@
                                         href="mailto:<%= info.value %>">
                                         <%= info.value %>
                                     </a></div>
-                                <%} else if (info.key.includes("site")) {%>
-                                    <div class="col-span-3 text-gray-700 dark:text-gray-300"><a target="_blank"
-                                            href="<%= info.value %>">
-                                            <%= info.value %>
-                                        </a></div>
-                                    <%} else { %>
+                               <%} else { %>
                                         <div class="col-span-3 text-gray-700 dark:text-gray-300">
                                             <%= info.value %>
                                         </div>
                                         <%} %>
-                                            <%} %>
+                                            <%} } %>
                     </div>
                 </div>
 
@@ -266,7 +279,7 @@
                 </div>
             </div>
         </section>
-        <div class="pagebreak"> </div>
+        <!-- <div class="pagebreak"> </div> -->
         <div class="my-10"></div>
         <h2 id="achievements-projects"><i class="fas fa-trophy"></i> RESEARCH & PROJECTS</h2>
         <section class="flex flex-wrap gap-x-6 px-2">
