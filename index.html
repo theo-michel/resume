@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        function generatePDF() {
+            console.log("Hello");
+            var element = document.getElementById('content');
+            html2pdf(element);
+        }
+    </script>
     <title>
         Théo Michel - Resume
     </title>
@@ -59,7 +68,7 @@
             style="cursor: pointer" onclick="$(document.documentElement).toggleClass('dark')"></i>
 
         <i class="fas fa-print ml-4 absolute left-10 md:left-0 top-5 md:relative" style="cursor: pointer"
-            onclick="window.print()"></i>
+            onclick="generatePDF()"></i>
     </nav>
     <div class="container mx-auto relative lg:w-8/12 print:w-full print:min-w-full">
         <div class="header-wrapper">
@@ -114,6 +123,7 @@
                     <hr class="mb-1 hidden md:block print:block">
                     <div class="grid grid-cols-4 gap-4 print:gap-1 gap-x-10">
                         
+                            
                             <div class="font-bold">
                                 Age
                             </div>
@@ -123,6 +133,7 @@
                                         </div>
                                         
                                             
+                            
                             <div class="font-bold">
                                 Languages
                             </div>
@@ -132,6 +143,7 @@
                                         </div>
                                         
                                             
+                            
                             <div class="font-bold">
                                 Location
                             </div>
@@ -141,6 +153,7 @@
                                         </div>
                                         
                                             
+                            
                             <div class="font-bold">
                                 Phone
                             </div>
@@ -150,6 +163,7 @@
                                         </div>
                                         
                                             
+                            
                             <div class="font-bold">
                                 E-mail
                             </div>
@@ -158,8 +172,18 @@
                                         href="mailto:theo64200@gmail.com">
                                         theo64200@gmail.com
                                     </a></div>
-                                
+                               
                                             
+                            
+                                <div class="font-bold hidden print:block">
+                                    CV Website
+                                </div>
+                                <div class="col-span-3 hidden print:block dark:text-gray-300 print:underline text-blue-600"><a target="_blank"
+                                        href="https://www.youtube.com/watch?v=RC3JOzN2F1w">
+                                        https://theo-michel.github.io/resume/
+                                    </a></div>
+                                    
+                            
                             <div class="font-bold">
                                 Interests
                             </div>
@@ -217,7 +241,9 @@
                                                                     SOFTWARE PRODUCT ENGINEER • Intern • Amsterdam
                                                                 </p>
                                                                 <p class="text-justify">
-                                                                    Launched an internal initiative for Machine Learning usage implementing semantic search using Bert reducing the tedious workload of finance operations by 70%. Worked on a POC using LlangChain and Mistral 7*8B via Hugging face using RAG in order to facilitate access to internal information. Also participated as a project Engineer allowing to automate 50% of the registration flow in France. 
+                                                                    • Launched an internal initiative for Machine Learning usage implementing semantic search using Bert reducing the tedious workload of finance operations by 70%.
+• Worked on a POC using LlangChain and Mistral 7*8B via Hugging face using RAG in order to facilitate access to internal information.
+• Participated as a project Engineer allowing to automate 50% of the registration flow in France. 
                                                                 </p>
                                                                 <div class="badge-block">
                                                                     
@@ -1017,7 +1043,7 @@
                 </div>
             </div>
         </section>
-        <div class="pagebreak"> </div>
+        <!-- <div class="pagebreak"> </div> -->
         <div class="my-10"></div>
         <h2 id="achievements-projects"><i class="fas fa-trophy"></i> RESEARCH & PROJECTS</h2>
         <section class="flex flex-wrap gap-x-6 px-2">
