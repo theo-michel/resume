@@ -166,9 +166,9 @@ educations:
     description: "Participated in leading-edge projects at KAIST, widely regarded as the top engineering school in South Korea, known for its research-oriented focus."
     arrow: 50
     knowledges:
-      - Deep Reinforcement Learning
+      - Deep RL
       - Introduction to Autonomous Robotics
-      - Graph Machine Learning
+      - Graph ML
       - IOT Data Science
     link: https://www.kaist.ac.kr/en/html/kaist/01.html#0112
 
