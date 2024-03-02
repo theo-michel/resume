@@ -32,12 +32,14 @@ jobs:
     company: "Tesla"
     logo: "img/logo/Tesla.png"
     arrow: 50
-    position: "SOFTWARE PRODUCT ENGINEER • Intern • Amsterdam"
+    position: "SOFTWARE PRODUCT AND DEVELOPMENT ENGINEER • Intern • Amsterdam"
     description: "• Launched an internal initiative for Machine Learning usage implementing semantic search using Bert reducing the tedious workload of finance operations by 70%.
 
    • Worked on a POC using LlangChain and Mistral 7*8B via Hugging face using RAG in order to facilitate access to internal information.
 
-   • Participated as a project Engineer allowing to automate 50% of the registration flow in France.
+   • Built a succesfull internal app using React and C# significantly improving workflow management for the company.
+   
+   • Participated as a Project Engineer in a project automating 50% of the registration flow in France.
   "
     badges:
       - name: "Hugging Face"
@@ -50,6 +52,8 @@ jobs:
         icon: "img/ico/python.png"
       - name: ".NET"
         icon: "img/ico/net.png"
+      - name: "React"
+        icon: "img/ico/react.png"
     link: https://www.tesla.com/
     id: tesla
 
@@ -232,6 +236,17 @@ educations:
 
 
 projects:
+  - date: "2024"
+    name: "Transformer From Scratch"
+    position: "DEVELOPER"
+    description: "Currently implementing a Transformer based LLM using Python/Pytorch, the next step is doing the same with the Mamba architecture that doesn't require any Attention Layer while achieving similar performance."
+    badges:
+    - name: "Python"
+      icon: "img/ico/python.png"
+    - name: "Pytorch"
+      icon: "img/ico/pytorch.png"
+    id: transformer
+    link: 
   - date: "2023"
     name: "Dark Forest Reinforcement Learning"
     position: "RESEARCHER"
@@ -343,17 +358,6 @@ projects:
       icon: "img/ico/py-bullet.png"
     id: hexapod
     link: https://pitch.com/embed/46097a0e-ce72-4606-84ba-ea0834365475
-  - date: "2024"
-    name: "Transformer From Scratch"
-    position: "DEVELOPER"
-    description: "Currently implementing a Transformer based LLM using Python/Pytorch, the next step is doing the same with the Mamba architecture that doesn't require any Attention Layer while achieving similar performance."
-    badges:
-    - name: "Python"
-      icon: "img/ico/python.png"
-    - name: "Pytorch"
-      icon: "img/ico/pytorch.png"
-    id: transformer
-    link: 
 
 
 

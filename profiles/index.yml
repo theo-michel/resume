@@ -1,12 +1,12 @@
 jobs:
   - tesla
   - snow
-  - boulanger
   - connecteur
   - wellputt
   - simbals
   - big_tilt
 projects:
+  - transformer
   - dark_forest
   - dim_red
   - drone
@@ -14,4 +14,3 @@ projects:
   - sim_clr
   - ai_data_challenge
   - hexapod
-  - transformer
