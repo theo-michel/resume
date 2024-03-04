@@ -32,8 +32,10 @@ jobs:
     company: "Tesla"
     logo: "img/logo/Tesla.png"
     arrow: 50
-    position: "SOFTWARE PRODUCT AND DEVELOPMENT ENGINEER • Intern • Amsterdam"
-    description: "• Launched an internal initiative for Machine Learning usage implementing semantic search using Bert reducing the tedious workload of finance operations by 70%.
+    position: "SOFTWARE/PRODUCT ENGINEER • Intern • Amsterdam"
+    description: "Held the role of product and and Software Engineer in order to decide on which path to choose.
+    
+    • Launched an internal initiative for Machine Learning usage implementing semantic search using Bert reducing the tedious workload of finance operations by 70%.
 
    • Worked on a POC using LlangChain and Mistral 7*8B via Hugging face using RAG in order to facilitate access to internal information.
 
