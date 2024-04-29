@@ -63,7 +63,12 @@ jobs:
     logo: "img/logo/snow-gmao.png"
     arrow: 50
     position: "CO-FOUNDER (with Widad ZIZOUAN) • Val d'Isère"
-    description: "Co-founded a startup aimed at simplifying equipment maintenance for small companies using AI, overseeing a team of 9. Went through all the stages of creating a company, and successfully developed a leading-edge app."
+    description: "
+    • Co-founded startup implementing predictive maintenance for small companies using AI, overseeing a team of 9, increased productivity of users by 20% on average. 
+    • Implemented  a Flutter Application and the backend using Firebase responsible for Software Architecture with limited developper resources.
+    • Added Computer Vision algorithms and 
+    • Was responsible for the design and oversight of the product features.
+    "
     badges:
       - name: "Flutter"
         icon: "img/ico/flutter.png"
@@ -76,11 +81,16 @@ jobs:
     link: https://snow-cannon-gmao-website.firebaseapp.com/
     id: snow
   - date: "Aug 2021 - January 2022 "
-    company: "Le Connecteur"
+    company: "Le Connecteur / Crédit Agricole"
     logo: "img/logo/connecteur.png"
     arrow: 50
     position: "LEAD DEVELOPER/ PRODUCT OWNER • Freelance • Biarritz"
-    description: "Led a team of five to develop a service for managing coworking space reservations through a WooCommerce site and a Flutter application for QR code scanning. Service has been running smoothly for 2 years."
+    description: 
+    "
+    • Led a team of 5 to develop a service for managing coworking space reservations through a WooCommerce site enabling 100 % of uptime, and more than 300 000€ in revenue over the last 3 years.
+    • Implemented a Flutter with Firebase backend for QR code scanning with more than 1000 daily scans.
+    "
+    # description: "Led a team of five to develop a service for managing coworking space reservations through a WooCommerce site and a Flutter application for QR code scanning. Service has been running smoothly for 2 years."
     badges:
       - name: "Flutter"
         icon: "img/ico/flutter.png"
@@ -96,20 +106,12 @@ jobs:
         icon: "img/ico/google-cloud.png"
     link: https://www.leconnecteur-biarritz.fr/
     id: connecteur
-  # - date: "July 2021 - August 2021"
-  #   company: "Boulanger SA"
-  #   logo: "img/logo/boulanger.png"
-  #   arrow: 50
-  #   position: "TECHNICAL ADVISOR • Bayonne"
-  #   description: "Advised clients for high-tech product purchases. Gained valuable insights into the world of sales and customer preferences."
-  #   badges:
-  #   id: boulanger
   - date: "Oct 2020 - Feb 2021"
     company: "Wellputt USA"
     logo: "img/logo/wellputt.png"
     arrow: 50
     position: "ANDROID DEVELOPER/PRODUCT OWNER • Freelance • Remote"
-    description: "Spearheaded the development of an engaging Android application gamifying putting training, achieving a 4.9-star rating since the app redesign and over 80,000 downloads."
+    description: "• Spearheaded the development of an engaging Android application gamifying putting training, achieving a 4.9-star rating since the app redesign and over 80,000 downloads."
     badges:
       - name: "Kotlin"
         icon: "img/ico/kotlin.png"
@@ -124,7 +126,7 @@ jobs:
     logo: "img/logo/wellputt.png"
     arrow: 50
     position: "COMPUTER VISION ENGINEER • Freelance • Bayonne"
-    description: "Developed a highly accurate golf ball tracking Computer Vision system and of a trajectory prediction algorithm for the Big Tilt platform."
+    description: "• Developed a highly accurate golf ball tracking Computer Vision system and of a trajectory prediction algorithm for the Big Tilt platform."
     badges:
       - name: "C++"
         icon: "img/ico/cpp.png"
@@ -145,7 +147,7 @@ jobs:
     logo: "img/logo/simbals.png"
     arrow: 50
     position: "DATA SCIENTIST • Intern • Bordeaux"
-    description: "Created innovative musical descriptors using Gradient Boosted Decision trees, providing musicians with new ways to discover music."
+    description: "• Created innovative musical descriptors using Gradient Boosted Decision trees, providing musicians with new ways to discover music."
     badges:
       - name: "Python"
         icon: "img/ico/python.png"
@@ -237,6 +239,17 @@ educations:
 
 
 projects:
+  - date: "2024"
+    name: "LLM Hackaton"
+    position: "PARTICIPANT"
+    description: "Selected to participate in a Hugging Face and Mistral Hackathon, where an innovative solution using large language models (LLMs) was developed. This solution leverages both vision and language models (VLMs and LLMs) to predict and respond to user needs by analyzing their behaviors. The aim is to use this to enable better collaboration with robots."
+    badges:
+    - name: "Python"
+      icon: "img/ico/python.png"
+    - name: "Pytorch"
+      icon: "img/ico/pytorch.png"
+    id: transformer
+    link: 
   - date: "2024"
     name: "Transformer From Scratch"
     position: "DEVELOPER"
@@ -338,7 +351,7 @@ projects:
   - date: "2021"
     name: "IA Pau Data Challenge"
     position: "TEAM LEAD"
-    description: "Lead a team of first-year students in the AI Data Challenge Pau, achieving the best performance and lowest training time on the patent classification task using fastText (Meta)."
+    description: "Led a team of first-year students in the AI Data Challenge Pau, achieving the best performance and lowest training time on the patent classification task using fastText (Meta)."
     badges:
     - name: "Python"
       icon: "img/ico/python.png"
