@@ -1,3 +1,5 @@
+
+# Overview
 This is the resume for Théo Michel
 
 
@@ -11,7 +13,7 @@ There is a print resume function on the top right.
 I do not recomend it for applying to jobs as it is not ATS friendly !
 
 
-## Further Improvements
+# Further Improvements
 
 - Make a the resume print using a latex engine, this will be faster and more ATS friendly
 - Add a bot you can talk to on the bottom right
