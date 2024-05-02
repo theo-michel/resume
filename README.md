@@ -8,9 +8,7 @@ You are free to use the template in any way you like.
 
 I improved and bug fixed on Waris Radji's resume.
 
-There is a print resume function on the top right.
-
-I do not recomend it for applying to jobs as it is not ATS friendly !
+There is a print resume function on the top right, I do not recomend it for applying to jobs as it is not ATS friendly !
 
 
 # Further Improvements
