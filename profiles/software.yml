@@ -6,6 +6,7 @@ jobs:
   - simbals
   - big_tilt
 projects:
+  - hackaton
   - transformer
   - dark_forest
   - dim_red

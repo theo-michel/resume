@@ -9,17 +9,18 @@
     "postcss-mixins": "^8.1.0",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3",
+    "react-scripts": "latest",
     "sass": "^1.37.5",
     "tailwindcss": "^2.2.7"
   },
   "scripts": {
-    "build:html": "node yaml2json.js && bash build.sh",
-    "build:tailwind": "postcss scss/style.scss -o public/css/style.css",
+    "build:html": "node yaml2json.js && ./build.sh",
+    "build:tailwind": "NODE_ENV=production node_modules/.bin/postcss scss/style.scss -o public/css/style.css",
     "watch:tailwind": "node_modules/.bin/postcss scss/style.scss -o public/css/style.css --watch"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.10",
     "html2pdf.js": "^0.10.1",
     "js-yaml": "^4.1.0"
   }

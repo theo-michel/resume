@@ -4,9 +4,9 @@ firstName: "Théo"
 lastName: "Michel"
 position: "Machine Learning Research Engineer"
 links:
-  - url: "https://github.com/theo-michel"
-    icon: "fab fa-github"
-  - url: "www.linkedin.com/in/theo-michel42"
+  # - url: "https://github.com/theo-michel"
+  #   icon: "fab fa-github"
+  - url: "https://www.linkedin.com/in/theo-michel42/"
     icon: "fab fa-linkedin"
 details:
   - key: "Age"
@@ -62,11 +62,14 @@ jobs:
     company: "Snow GMAO"
     logo: "img/logo/snow-gmao.png"
     arrow: 50
-    position: "CO-FOUNDER (with Widad ZIZOUAN) • Val d'Isère"
+    position: "CO-FOUNDER • Val d'Isère"
     description: "
     • Co-founded startup implementing predictive maintenance for small companies using AI, overseeing a team of 9, increased productivity of users by 20% on average. 
+    
     • Implemented  a Flutter Application and the backend using Firebase responsible for Software Architecture with limited developper resources.
-    • Added Computer Vision algorithms and 
+    
+    • Added Computer Vision algorithms
+
     • Was responsible for the design and oversight of the product features.
     "
     badges:
@@ -85,12 +88,10 @@ jobs:
     logo: "img/logo/connecteur.png"
     arrow: 50
     position: "LEAD DEVELOPER/ PRODUCT OWNER • Freelance • Biarritz"
-    description: 
-    "
-    • Led a team of 5 to develop a service for managing coworking space reservations through a WooCommerce site enabling 100 % of uptime, and more than 300 000€ in revenue over the last 3 years.
-    • Implemented a Flutter with Firebase backend for QR code scanning with more than 1000 daily scans.
-    "
-    # description: "Led a team of five to develop a service for managing coworking space reservations through a WooCommerce site and a Flutter application for QR code scanning. Service has been running smoothly for 2 years."
+    description: "
+    • Led a team of 5 to develop a service for managing coworking space reservations through a WooCommerce site with 100 % of uptime, and more than 300 000€ in revenue over the last 3 years.
+    
+    • Implemented a Flutter with Firebase backend for QR code scanning with more than 1000 daily scans."
     badges:
       - name: "Flutter"
         icon: "img/ico/flutter.png"
@@ -236,11 +237,9 @@ educations:
       - Diffusion
       - Quantum Physics
   
-
-
 projects:
   - date: "2024"
-    name: "LLM Hackaton"
+    name: "LLM Hackaton X Hugging Face X Mistral"
     position: "PARTICIPANT"
     description: "Selected to participate in a Hugging Face and Mistral Hackathon, where an innovative solution using large language models (LLMs) was developed. This solution leverages both vision and language models (VLMs and LLMs) to predict and respond to user needs by analyzing their behaviors. The aim is to use this to enable better collaboration with robots."
     badges:
@@ -248,8 +247,12 @@ projects:
       icon: "img/ico/python.png"
     - name: "Pytorch"
       icon: "img/ico/pytorch.png"
-    id: transformer
-    link: 
+    - name: "Hugging Face"
+      icon: "img/ico/hf.png"
+    - name: "Mistral AI"
+      icon: "img/ico/mistral.png"
+    id: hackaton
+    link: https://www.linkedin.com/posts/warisr_last-week-i-had-the-amazing-opportunity-activity-7191005391118319618-_4_6?utm_source=share&utm_medium=member_desktop
   - date: "2024"
     name: "Transformer From Scratch"
     position: "DEVELOPER"
