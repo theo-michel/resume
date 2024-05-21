@@ -23,7 +23,8 @@ details:
     value: "https://theo-michel.github.io/resume/"
   - key: "Interests"
     value: "Classical Music, Science-Fiction, AI, Philosophy, Sailing, Gym, MMA, Volley-Ball"
-    description: "Experienced software engineer and AI researcher with over four years of expertise, dedicated to advancing human capabilities through applied machine learning and software development.
+description: "Experienced Software Engineer and AI researcher with over four years in the field, dedicated to enhancing the human condition through applied Machine Learning and Software Engineering."
+
 # description: "Dedicated to enhancing humans through AI. With a strong background of 4+ years in software engineering and AI research, I am confident in my ability to make a meaningful contribution to applied ML, and Software Engineering endeavours."
 # description: "Dedicated to enhancing human intelligence through AI, Brain-Computer Interfaces, and Education. I am looking for an Internship in which I can learn from great minds and harness my skills in AI/RL, BCI, and Software Engineering to have a positive impact on the project."
 # description: "Dedicated to enhancing human intelligence through AI, Brain Computer Interfaces and Education. I am looking for an internship enabling me to leverage my skills in AI/RL, BCI and Software Engineering in order to make a meaningfull contribution, and at the same time improve skills. " #"I am fascinated by the concept of Intelligence and looking for an opportunity to explore it through Artificial Intelligence, Reinforcement Learning and Brain Computer Interfacing."
