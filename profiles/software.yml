@@ -1,4 +1,5 @@
 jobs:
+  - topo
   - tesla
   - snow
   - connecteur
@@ -6,8 +7,8 @@ jobs:
   - simbals
   - big_tilt
 projects:
+  - sande
   - hackaton
-  - transformer
   - dark_forest
   - dim_red
   - drone

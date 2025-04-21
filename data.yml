@@ -10,7 +10,7 @@ links:
     icon: "fab fa-linkedin"
 details:
   - key: "Age"
-    value: "23 years"
+    value: "24 years"
   - key: "Languages"
     value: "French, German, English, Spanish"
   - key: "Location"
@@ -30,6 +30,42 @@ description: "Experienced Software Engineer and AI researcher with over four yea
 # description: "Dedicated to enhancing human intelligence through AI, Brain Computer Interfaces and Education. I am looking for an internship enabling me to leverage my skills in AI/RL, BCI and Software Engineering in order to make a meaningfull contribution, and at the same time improve skills. " #"I am fascinated by the concept of Intelligence and looking for an opportunity to explore it through Artificial Intelligence, Reinforcement Learning and Brain Computer Interfacing."
 
 jobs:
+  - date: "Aug 2024 - Present"
+    company: "Topo"
+    logo: "img/logo/topo.png"
+    arrow: 50
+    position: "FOUNDING AI ENGINEER • Full Time • Paris"
+    description: "• Helped Topo build the future of AI SDRs.
+    
+   • Implemented an LLM based agents able to scrape the web, in order to find the best leads, and then contact them with the best message.
+
+   • Worked at every layer of a startup from Frontend to Backend, from Data/AI to Product and operations.
+   
+   • Helped grow the company from 100K ARR to 2M ARR in 1 year.
+
+   • Helped to 3x the number of clients per human.
+  "
+    badges:
+      - name: "Hugging Face"
+        icon: "img/ico/hf.png"
+      - name: "Langgraph"
+        icon: "img/ico/langgraph.png"
+      - name: "Python"
+        icon: "img/ico/python.png"
+      - name: "PostgreSQL"
+        icon: "img/ico/postgresql.png"
+      - name: "React"
+        icon: "img/ico/react.png"
+      - name: "Next.js"
+        icon: "img/ico/nextjs.png"
+      - name: "Render"
+        icon: "img/ico/render.png"
+      - name: "Datadog"
+        icon: "img/ico/datadog.png"
+      - name: "Temporal"
+        icon: "img/ico/temporal.png"
+    link: https://www.topo.io/
+    id: topo
   - date: "Oct 2023 - Apr 2024"
     company: "Tesla"
     logo: "img/logo/Tesla.png"
@@ -46,8 +82,6 @@ jobs:
     badges:
       - name: "Hugging Face"
         icon: "img/ico/hf.png"
-      - name: "Llang Chain"
-        icon: "img/ico/llangchain.png"
       - name: "C#"
         icon: "img/ico/cs.png"
       - name: "Python"
@@ -238,6 +272,23 @@ educations:
   
 projects:
   - date: "2024"
+    name: "SAND·E: Beach Cleaning Robot"
+    position: "TEAM LEAD - 1ST PLACE WINNER"
+    description: "Won 1st place at Europe's largest robotics hackathon (Hugging Face x Mistral AI). Built SAND·E, a WALL·E-inspired beach-cleaning robot that identifies and collects trash on sandy terrain. Implemented computer vision for terrain navigation, Mistral Small 24B for object classification, and an ACT policy for grasping. Added voice interaction via ElevenLabs for a complete human-robot interaction experience."
+    badges:
+    - name: "Python"
+      icon: "img/ico/python.png"
+    - name: "Computer Vision"
+      icon: "img/ico/open-cv.png"
+    - name: "Mistral AI"
+      icon: "img/ico/mistral.png"  
+    - name: "Hugging Face" 
+      icon: "img/ico/hf.png"
+    - name: "ROS"
+      icon: "img/ico/ros.png"
+    id: sande
+    link: https://www.linkedin.com/posts/theo-michel42_we-just-won-1st-place-at-the-largest-robotics-activity-7317586101198618624-31AQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRYO70Bv_aVH2SLmEMVNNW95CEPdLHmCV4
+  - date: "2024"
     name: "LLM Hackaton X Hugging Face X Mistral"
     position: "PARTICIPANT"
     description: "Selected to participate in a Hugging Face and Mistral Hackathon, where an innovative solution using large language models (LLMs) was developed. This solution leverages both vision and language models (VLMs and LLMs) to predict and respond to user needs by analyzing their behaviors. The aim is to use this to enable better collaboration with robots."
@@ -252,17 +303,6 @@ projects:
       icon: "img/ico/mistral.png"
     id: hackaton
     link: https://www.linkedin.com/posts/warisr_last-week-i-had-the-amazing-opportunity-activity-7191005391118319618-_4_6?utm_source=share&utm_medium=member_desktop
-  - date: "2024"
-    name: "Transformer From Scratch"
-    position: "DEVELOPER"
-    description: "Currently implementing a Transformer based LLM using Python/Pytorch, the next step is doing the same with the Mamba architecture that doesn't require any Attention Layer while achieving similar performance."
-    badges:
-    - name: "Python"
-      icon: "img/ico/python.png"
-    - name: "Pytorch"
-      icon: "img/ico/pytorch.png"
-    id: transformer
-    link: 
   - date: "2023"
     name: "Dark Forest Reinforcement Learning"
     position: "RESEARCHER"
